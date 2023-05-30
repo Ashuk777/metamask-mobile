@@ -72,10 +72,12 @@ const BannerBase: React.FC<BannerBaseProps> = ({
 
   const renderDetails = () => {
     if (hasDetails && isExpanded) {
-      return (
+      return typeof details === 'string' ? (
         <Text variant={DEFAULT_BANNERBASE_DESCRIPTION_TEXTVARIANT}>
           {details}
         </Text>
+      ) : (
+        { details }
       );
     }
   };
