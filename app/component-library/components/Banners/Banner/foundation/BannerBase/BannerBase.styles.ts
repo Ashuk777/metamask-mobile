@@ -40,6 +40,10 @@ const styleSheet = (params: {
     endAccessory: {
       marginLeft: 12,
     },
+    infoButton: {
+      paddingLeft: 0,
+      marginTop: 5,
+    },
   });
 };
 

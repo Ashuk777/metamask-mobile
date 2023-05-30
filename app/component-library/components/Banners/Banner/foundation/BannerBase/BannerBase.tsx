@@ -2,15 +2,14 @@
 
 // Third party dependencies.
 import { noop } from 'lodash';
-import React from 'react';
+import React, { useState } from 'react';
 import { View } from 'react-native';
 
 // External dependencies.
 import { useStyles } from '../../../../../hooks';
 import Text from '../../../../Texts/Text';
-import Button from '../../../../Buttons/Button';
+import Button, { ButtonSize, ButtonVariants } from '../../../../Buttons/Button';
 import ButtonIcon from '../../../../Buttons/ButtonIcon';
-
 // Internal dependencies.
 import styleSheet from './BannerBase.styles';
 import { BannerBaseProps } from './BannerBase.types';
@@ -23,6 +22,7 @@ import {
   DEFAULT_BANNERBASE_CLOSEBUTTON_BUTTONICONSIZE,
   DEFAULT_BANNERBASE_CLOSEBUTTON_ICONNAME,
 } from './BannerBase.constants';
+import { IconName } from '../../../../Icons/Icon';
 
 const BannerBase: React.FC<BannerBaseProps> = ({
   style,
@@ -32,9 +32,14 @@ const BannerBase: React.FC<BannerBaseProps> = ({
   actionButtonProps,
   onClose,
   closeButtonProps,
+  hasDetails,
+  details,
   ...props
 }) => {
   const { styles } = useStyles(styleSheet, { style });
+
+  const [isExpanded, setIsExpanded] = useState(false);
+
   const renderTitle = () =>
     typeof title === 'string' ? (
       <Text variant={DEFAULT_BANNERBASE_TITLE_TEXTVARIANT}>{title}</Text>
@@ -50,12 +55,39 @@ const BannerBase: React.FC<BannerBaseProps> = ({
       { description }
     );
 
+  const renderShowHideDetailsLink = () => {
+    if (hasDetails) {
+      return (
+        <Button
+          variant={ButtonVariants.Link}
+          style={styles.infoButton}
+          onPress={() => setIsExpanded(!isExpanded)}
+          label={isExpanded ? 'Hide details' : 'Show details'}
+          size={ButtonSize.Md}
+          endIconName={isExpanded ? IconName.ArrowUp : IconName.ArrowDown}
+        />
+      );
+    }
+  };
+
+  const renderDetails = () => {
+    if (hasDetails && isExpanded) {
+      return (
+        <Text variant={DEFAULT_BANNERBASE_DESCRIPTION_TEXTVARIANT}>
+          {details}
+        </Text>
+      );
+    }
+  };
+
   return (
     <View style={styles.base} {...props}>
       <View style={styles.startAccessory}>{startAccessory}</View>
       <View style={styles.info}>
         {renderTitle()}
         {renderDescription()}
+        {renderShowHideDetailsLink()}
+        {renderDetails()}
         {actionButtonProps && (
           <Button
             variant={DEFAULT_BANNERBASE_ACTIONBUTTON_VARIANT}
