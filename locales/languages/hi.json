@@ -865,9 +865,17 @@
       "1y": "1Y",
       "3y": "3Y"
     },
+    "no_chart_data": {
+      "title": "No chart data",
+      "description": "We could not fetch any data for this token"
+    },
     "your_balance": "आपका बैलेंस",
     "unable_to_load_balance": "आपका बैलेंस लोड करने में असमर्थ",
     "about": "बारे में",
+    "about_content_display": {
+      "show_more": "Show more",
+      "show_less": "Show less"
+    },
     "activity": "{{symbol}} गतिविधि",
     "disclaimer": "मार्केट डेटा एक या अधिक तृतीय-पक्ष डेटा स्रोतों द्वारा प्रदान किया जाता है, जिसमें कॉइनगेको भी शामिल है। ऐसी तृतीय-पक्ष सामग्री केवल सूचनात्मक उद्देश्यों के लिए प्रदान की जाती है और इसे किसी विशेष संपत्ति को खरीदने, बेचने या उपयोग करने की सलाह के रूप में नहीं माना जाना चाहिए। MetaMask किसी विशेष उद्देश्य के लिए इस सामग्री के उपयोग का सुझाव नहीं देता है और इसकी सटीकता के लिए ज़िम्मेदार नहीं है।"
   },
@@ -1291,7 +1299,8 @@
     "add_other_network_here": "यहां।",
     "you_can": "या आप",
     "add_network": "मैन्युअल रूप से अधिक नेटवर्क जोड़ें।",
-    "select_network": "एक नेटवर्क चुनें"
+    "select_network": "एक नेटवर्क चुनें",
+    "show_test_networks": "Show test networks"
   },
   "select": {
     "cancel": "रद्द करें",

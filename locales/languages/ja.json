@@ -865,9 +865,17 @@
       "1y": "1 年",
       "3y": "3 年"
     },
+    "no_chart_data": {
+      "title": "No chart data",
+      "description": "We could not fetch any data for this token"
+    },
     "your_balance": "残高",
     "unable_to_load_balance": "残高を読み込めません",
     "about": "情報",
+    "about_content_display": {
+      "show_more": "Show more",
+      "show_less": "Show less"
+    },
     "activity": "{{symbol}} のアクティビティ",
     "disclaimer": "市場データは、CoinGecko をはじめとする 1 つまたは複数のサードパーティーデータソースから提供されています。このようなサードパーティーコンテンツは情報提供のみを目的としており、特定資産の購入、売却、または使用の助言として扱われるべきものではありません。MetaMask はこのコンテンツを特定の目的に使用することを推奨しておらず、その正確性について責任を負いません。"
   },
@@ -1291,7 +1299,8 @@
     "add_other_network_here": "こちらから検出できます。",
     "you_can": "または",
     "add_network": "他のネットワークを手動で追加できます。",
-    "select_network": "ネットワークを選択"
+    "select_network": "ネットワークを選択",
+    "show_test_networks": "Show test networks"
   },
   "select": {
     "cancel": "キャンセル",

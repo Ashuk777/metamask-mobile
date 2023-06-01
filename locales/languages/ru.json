@@ -865,9 +865,17 @@
       "1y": "1 Г",
       "3y": "3 Г"
     },
+    "no_chart_data": {
+      "title": "No chart data",
+      "description": "We could not fetch any data for this token"
+    },
     "your_balance": "Ваш баланс",
     "unable_to_load_balance": "Не удалось загрузить ваш баланс",
     "about": "Общие сведения",
+    "about_content_display": {
+      "show_more": "Show more",
+      "show_less": "Show less"
+    },
     "activity": "Активность {{symbol}}",
     "disclaimer": "Рыночные данные предоставляются одним или несколькими сторонними источниками данных, включая CoinGecko. Такой сторонний контент предоставляется исключительно в информационных целях и не должен рассматриваться как консультация по покупке, продаже или использованию какого-либо конкретного актива. MetaMask не предлагает использовать этот контент для каких-либо конкретных целей и не несет ответственности за его точность."
   },
@@ -1291,7 +1299,8 @@
     "add_other_network_here": "здесь.",
     "you_can": "Или вы можете",
     "add_network": "добавить другие сети вручную.",
-    "select_network": "Выбрать сеть"
+    "select_network": "Выбрать сеть",
+    "show_test_networks": "Show test networks"
   },
   "select": {
     "cancel": "Отмена",

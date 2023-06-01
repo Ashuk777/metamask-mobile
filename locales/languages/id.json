@@ -865,9 +865,17 @@
       "1y": "1T",
       "3y": "3T"
     },
+    "no_chart_data": {
+      "title": "No chart data",
+      "description": "We could not fetch any data for this token"
+    },
     "your_balance": "Saldo Anda",
     "unable_to_load_balance": "Tidak dapat memuat saldo Anda",
     "about": "Tentang",
+    "about_content_display": {
+      "show_more": "Show more",
+      "show_less": "Show less"
+    },
     "activity": "Aktivitas {{symbol}}",
     "disclaimer": "Data pasar disediakan oleh satu atau beberapa sumber data pihak ketiga, termasuk CoinGecko. Konten pihak ketiga tersebut disediakan semata-mata untuk tujuan informasi dan tidak boleh dianggap sebagai saran untuk membeli, menjual, atau menggunakan aset tertentu. MetaMask tidak menyarankan penggunaan konten ini untuk tujuan tertentu dan tidak bertanggung jawab atas keakuratannya."
   },
@@ -1291,7 +1299,8 @@
     "add_other_network_here": "di sini.",
     "you_can": "Atau Anda dapat",
     "add_network": "menambahkan lebih banyak jaringan secara manual.",
-    "select_network": "Pilih jaringan"
+    "select_network": "Pilih jaringan",
+    "show_test_networks": "Show test networks"
   },
   "select": {
     "cancel": "Batal",

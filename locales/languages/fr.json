@@ -865,9 +865,17 @@
       "1y": "1 an",
       "3y": "3 ans"
     },
+    "no_chart_data": {
+      "title": "No chart data",
+      "description": "We could not fetch any data for this token"
+    },
     "your_balance": "Votre solde",
     "unable_to_load_balance": "Impossible d’afficher votre solde",
     "about": "À propos",
+    "about_content_display": {
+      "show_more": "Show more",
+      "show_less": "Show less"
+    },
     "activity": "Activité du {{symbol}}",
     "disclaimer": "Les données de marché sont fournies par un ou plusieurs fournisseurs de données tiers comme CoinGecko. Ce contenu est fourni uniquement à des fins d’information et ne doit pas être considéré comme un conseil d’achat, de vente ou d’utilisation d’un actif particulier. MetaMask ne garantit pas l’exactitude ou la pertinence des informations fournies."
   },
@@ -1291,7 +1299,8 @@
     "add_other_network_here": "ici.",
     "you_can": "Ou vous pouvez",
     "add_network": "ajouter manuellement d’autres réseaux.",
-    "select_network": "Sélectionner un réseau"
+    "select_network": "Sélectionner un réseau",
+    "show_test_networks": "Show test networks"
   },
   "select": {
     "cancel": "Annuler",

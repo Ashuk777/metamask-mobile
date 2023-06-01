@@ -865,9 +865,17 @@
       "1y": "1Y",
       "3y": "3Y"
     },
+    "no_chart_data": {
+      "title": "No chart data",
+      "description": "We could not fetch any data for this token"
+    },
     "your_balance": "Bakiyeniz",
     "unable_to_load_balance": "Bakiyeniz yüklenemedi",
     "about": "Hakkında",
+    "about_content_display": {
+      "show_more": "Show more",
+      "show_less": "Show less"
+    },
     "activity": "{{symbol}} aktivitesi",
     "disclaimer": "Piyasa verileri CoinGecko dahil bir veya daha fazla üçüncü taraf veri kaynakları tarafından sunulur. Söz konusu üçüncü taraf içerik sadece bilgi vermek amacıyla sunulur ve belirli bir varlığı satın alma, satma ya da kullanma tavsiyesi olarak görülmemelidir. MetaMask bu içeriğin herhangi bir belirli amaçla kullanımını önermez ve bunun doğruluğundan sorumlu değildir."
   },
@@ -1291,7 +1299,8 @@
     "add_other_network_here": "Burada daha fazla ağ keşfedebilirsiniz.",
     "you_can": "Veya",
     "add_network": "manuel olarak daha fazla ekleyebilirsiniz.",
-    "select_network": "Bir ağ seçin"
+    "select_network": "Bir ağ seçin",
+    "show_test_networks": "Show test networks"
   },
   "select": {
     "cancel": "İptal",

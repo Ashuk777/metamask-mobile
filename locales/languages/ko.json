@@ -865,9 +865,17 @@
       "1y": "1년",
       "3y": "3년"
     },
+    "no_chart_data": {
+      "title": "No chart data",
+      "description": "We could not fetch any data for this token"
+    },
     "your_balance": "잔액",
     "unable_to_load_balance": "잔액을 로드할 수 없습니다",
     "about": "정보",
+    "about_content_display": {
+      "show_more": "Show more",
+      "show_less": "Show less"
+    },
     "activity": "{{symbol}} 활동",
     "disclaimer": "시장 데이터는 CoinGecko를 포함한 복수의 타사 데이터 소스에서 제공합니다. 이러한 타사 콘텐츠는 정보 제공의 목적으로만 제공되므로 특정 자산을 구매, 판매 또는 사용하라는 조언으로 취급해서는 안 됩니다. MetaMask는 특정 목적을 위해 이 콘텐츠의 사용을 제안하지 않으며 그 정확성에 대해서도 책임지지 않습니다."
   },
@@ -1291,7 +1299,8 @@
     "add_other_network_here": "여기에서 확인하세요.",
     "you_can": "또는 다음을 확인하세요:",
     "add_network": "네트워크를 직접 추가할 수도 있습니다.",
-    "select_network": "네트워크 선택"
+    "select_network": "네트워크 선택",
+    "show_test_networks": "Show test networks"
   },
   "select": {
     "cancel": "취소",

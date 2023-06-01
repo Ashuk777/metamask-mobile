@@ -865,9 +865,17 @@
       "1y": "1 年",
       "3y": "3 年"
     },
+    "no_chart_data": {
+      "title": "No chart data",
+      "description": "We could not fetch any data for this token"
+    },
     "your_balance": "您的余额",
     "unable_to_load_balance": "无法载入您的余额",
     "about": "关于",
+    "about_content_display": {
+      "show_more": "Show more",
+      "show_less": "Show less"
+    },
     "activity": "{{symbol}} 活动",
     "disclaimer": "市场数据由一个或多个第三方数据源提供，包括 CoinGecko。此类第三方内容仅供参考，不应被视为购买、出售或使用任何特定资产的建议。MetaMask 不建议将此内容用于任何特定目的，也不对其准确性负责。"
   },
@@ -1291,7 +1299,8 @@
     "add_other_network_here": "这里。",
     "you_can": "或者您可以",
     "add_network": "手动添加更多网络。",
-    "select_network": "选择网络"
+    "select_network": "选择网络",
+    "show_test_networks": "Show test networks"
   },
   "select": {
     "cancel": "取消",
